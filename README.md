@@ -9,4 +9,4 @@ This repository contains the dataset and codes necessary for the two projects an
 
 2. Project 2 - Narritive Visualization (20% of final grade)
 
-3. Final Project - Whitepaper (20% of final grade)
+3. Final Project - Final Portfolio (20% of final grade)
