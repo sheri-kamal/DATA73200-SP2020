@@ -10,10 +10,8 @@ Since there is no convenient dataset that includes these indexes, I will be aggr
 ## Sketches and Mockups
 With this data, specifically financial data, there are several types of visualizations that come to mind, but the one that stands out immediately is a simple time series line or area chart of the market index. Another type of visualization that comes to mind, disregarding the temporality of the data, is a scatter plot of the VIX index against a market index to explore a relationship between the two indexes. A final type of visualization that I would consider is a bar chart that looks at the percent change from one day/month/year to the next of a particular index.
 
-With any of the visualizations, there will be a definite need for a drop-down or some other selection UI element so that the user can select a financial index to view. I would also want to include another UI element so that the user can determine if they want to only see data from a recession or a non-recession period. If I could get the data, I might also create a drop-down or some other selection UI element that would be used to select data from other periods of epidemics and pandemics since I would believe that the market performance during these periods would be similar to the market performance during this pandemic. In fact, the closest pandemic that would most likely mimic the market performance now would be the 2009 H1N1 "swine flu" pandemic.
-
 ## Architectural Schema
-
+With any of the visualizations, there will be a definite need for a drop-down or some other selection UI element so that the user can select a financial index to view. I would also want to include another UI element so that the user can determine if they want to only see data from a recession or a non-recession period. If I could get the data, I might also create a drop-down or some other selection UI element that would be used to select data from other periods of epidemics and pandemics since I would believe that the market performance during these periods would be similar to the market performance during this pandemic. In fact, the closest pandemic that would most likely mimic the market performance now would be the 2009 H1N1 "swine flu" pandemic.
 
 ## Final Data
 
