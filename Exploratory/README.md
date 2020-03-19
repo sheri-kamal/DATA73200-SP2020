@@ -9,6 +9,7 @@ Since there is no convenient dataset that includes these indexes, I will be aggr
 With this data, specifically financial data, there are several types of visualizations that come to mind, but the one that stands out immediately is a simple time series line or area chart of the market index.
 Another type of visualization that comes to mind, disregarding the temporality of the data, is a scatter plot of the VIX index against of the the market indexes to explore a relationship between the two indexes.
 A final type of visualization that I would consider is a bar chart that looks at the percent change from one day/month/year to the next of a particular index.
+
 With any of the visualizations, there definitely will be a need for a drop-down or some other selection UI element so that the use can select an index. I also will to include another UI element so that the user can determine if they want to only see data from a recession or a non-recession period.
 
 ## Architectural Schema
