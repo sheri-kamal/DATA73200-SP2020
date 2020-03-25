@@ -7,7 +7,7 @@ It is precisely these thoughts which drove me to explore financial market data. 
 
 Since there is no convenient dataset that includes these indexes, I will be aggregating the data from Yahoo Finance and performing any necessary data transformations in Excel.
 
-## Sketches and Mockups
+## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Sketches%20and%20Mockups.pdf)
 With this data, specifically financial data, there are several types of visualizations that come to mind, but the one that stands out immediately is a simple time series line or area chart of the market index. Another type of visualization that comes to mind, disregarding the temporality of the data, is a scatter plot of the VIX index against a market index to explore a relationship between the two indexes. A final type of visualization that I would consider is a bar chart that looks at the percent change from one day/month/year to the next of a particular index.
 
 ## Architectural Schema
