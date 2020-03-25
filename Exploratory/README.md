@@ -13,7 +13,7 @@ With this data, specifically financial data, there are several types of visualiz
 ## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/index.html)
 With any of the visualizations, there will be a definite need for a drop-down or some other selection UI element so that the user can select a financial index to view. I would also want to include another UI element so that the user can determine if they want to only see data from a recession or a non-recession period. The layout of the visualization will be a dashboard made up of two side by side charts.
 
-## [Final Data](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Final%20Dataset.csv)
+## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
 Contains the following 14 variables (6 of which are generated transformed variables):
   * Date
   * Dow Jones Industrial Average
