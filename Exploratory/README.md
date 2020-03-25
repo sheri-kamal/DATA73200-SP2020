@@ -1,4 +1,4 @@
-# [Project 1: Exporatory Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
+# [Project 1: Exploratory Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
 
 ## [Prospectus](https://github.com/sheri-kamal/DATA73200-SP2020/tree/master/Exploratory)
 Due to the pandemic caused by the novel Coronavirus (COVID-19), you may have noticed that the stock markets have been turbulent as a result of fears that the pandemic will have on different industries and trade. These fears have caused financial markets to tumble at an alarming rate and at times triggering the "circuit breakers" to halt trading. The triggering of these "circuit breakers" seems to occur more frequently with the duration of the pandemic. It is safe to say if the pandemic is prolonged then the negative impacts on the financial markets and the economy as a whole could push us into a recession, which we have not been in for 11 years. 
