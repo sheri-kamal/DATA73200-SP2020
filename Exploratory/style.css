@@ -1,1 +1,11 @@
+body {
+    font-family: Verdana, sans-serif;
+    padding: 1em 3em;
+}
 
+#dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr, 1fr;
+    column-gap: 2em;
+  }
