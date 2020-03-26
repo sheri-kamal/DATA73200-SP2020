@@ -17,15 +17,14 @@ The layout of the visualization will be a dashboard made up of two side by side 
 This is a large dataset that contains the following 14 variables (6 of which are generated transformed variables):
   * Date
   * Index
+    * CBOE Volatility Index
     * Dow Jones Industrial Average
-    * S&P 500
     * NASDAQ Composite
     * NYSE COMPOSITE
     * Russell 2000
-    * CBOE Volatility Index
+    * S&P 500
   * Index Value
   * Percent Change
   * Recession
 
 ## [Final Project](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
-
