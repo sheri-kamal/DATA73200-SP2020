@@ -14,7 +14,7 @@ With this data, specifically financial data, there are several types of visualiz
 The layout of the visualization will be a dashboard made up of two charts so there will be a need for two svg containers. There will be a drop-down so that the user can select a financial index to view and this drop-down will update the two charts. I am also including another drop-down so that the user can determine if they want to only see data from a recession or a non-recession period, which will also update the two charts. I will also include a tooltip that updates on mouseover so it is easier to see specific values at specific dates.
 
 ## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
-This is a large dataset that contains the following 14 variables (6 of which are generated transformed variables):
+This is a dataset, with 45702 data points, that contains the following 14 (6 of which are transformed) variables:
   * Date
   * Index
     * CBOE Volatility Index
