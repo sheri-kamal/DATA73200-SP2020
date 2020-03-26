@@ -16,18 +16,15 @@ The layout of the visualization will be a dashboard made up of two side by side 
 ## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
 This is a large dataset that contains the following 14 variables (6 of which are generated transformed variables):
   * Date
-  * Dow Jones Industrial Average
-    * DJIA % Change
-  * S&P 500
-    * S&P % Change
-  * NASDAQ Composite
-    * NASDAQ % Change
-  * NYSE COMPOSITE
-    * NYSE % Change
-  * Russell 2000
-    * Russell % Change
-  * CBOE Volatility Index
-    * VIX % Change
+  * Index
+    * Dow Jones Industrial Average
+    * S&P 500
+    * NASDAQ Composite
+    * NYSE COMPOSITE
+    * Russell 2000
+    * CBOE Volatility Index
+  * Index Value
+  * Percent Change
   * Recession
 
 ## [Final Project](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
