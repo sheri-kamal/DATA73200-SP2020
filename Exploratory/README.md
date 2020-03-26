@@ -10,7 +10,7 @@ Since there is no convenient dataset that includes these indexes, I will be aggr
 ## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Sketches%20and%20Mockups.pdf)
 With this data, specifically financial data, there are several types of visualizations that come to mind, but the one that stands out immediately is a simple time series line or area chart of the market index. Another type of visualization that comes to mind, disregarding the temporality of the data, is a scatter plot of the VIX index against a market index to explore a relationship between the two indexes. A final type of visualization that I would consider is a bar chart that looks at the percent change from one day/month/year to the next of a particular index.
 
-## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/index.html)
+## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Architectural%20Schema.pdf)
 The layout of the visualization will be a dashboard made up of two side by side charts. With any of the visualizations, there will be a definite need for a drop-down or some other selection UI element so that the user can select a financial index to view. I would also want to include another UI element so that the user can determine if they want to only see data from a recession or a non-recession period. 
 
 ## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
