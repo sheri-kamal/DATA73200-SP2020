@@ -1,0 +1,9 @@
+# [Project 2: Narrative Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Narrative/)
+
+## [Prospectus](https://github.com/sheri-kamal/DATA73200-SP2020/tree/master/Narrative)
+This is a more in depth exploration of the 311 Water Quality Complaint data from 2010 to 2019 that I explored in the first project. While working with the water quality complaint data in the first project, it became clear that some boroughs had many more water quality complaints than other boroughs and I decided to take an in depth look into these complaints as well as determine if water quality complaints had any affect on waterborne illness complaints during the same time period. 
+
+This in depth exploration could prove useful to help city and government agencies, the Department of Health and Mental Hygiene and the Department of Environmental Protection specifically, to determine which areas are in need of water quality improvement and to determine if there any factors which could contribute to the causes of waterborne illness in the boroughs or areas where the rate of waterborne illnesses are high or clustered and take measures to prevent outbreaks.
+
+## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Narrative/Sketches%20and%20Mockups.pdf)
+For my visualization, I believed that a scatter plot with a regression line would be most useful to show a relationship between water quality complaints and waterborne illness complaints. I also believe that a side by side bar chart displaying the amount of water quality complaints and waterborne illnesses per borough could prove usefulby providing perspective on waterborne illness complaints in relation to water quality complaints. The last type of visualization I believed would be useful in my narrative is a pair of pie charts with one depicting the amount of water quality complaints by borough and the other depicting the amount of waterborne illness complaints by borough.
