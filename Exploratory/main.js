@@ -30,7 +30,6 @@ function dashboard(id, Data){
             .attr("transform", `translate(0, ${height - margin.bottom})`)
             .call(xAxis);
 
-        // Create function for y-axis map.
         var y = d3
             .scaleLinear()
             .domain([height - margin.bottom, margin.top])
