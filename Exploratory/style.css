@@ -45,11 +45,11 @@ rect:hover {
 }
   
 .legend td{
-      padding:4px 5px;
-      vertical-align:bottom;
+    padding:4px 5px;
+    vertical-align:bottom;
 }
   
 .legendFreq, .legendPerc{
-      /*align:right;*/
-      width:50px;
+    align:right;
+    width:50px;
 }
