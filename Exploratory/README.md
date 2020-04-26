@@ -1,7 +1,7 @@
 # [Project 1: Exploratory Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
 
 ## [Prospectus](https://github.com/sheri-kamal/DATA73200-SP2020/tree/master/Exploratory)
-For my project, I will be exploring 311 data for NYC, more specifically, I will be exploring water quality complaints across NYC from 2010 to 2019. This exloration allows us to take a look at the major water quality issues in NYC and which boroughs are more impacted by water quality issues in NYC.
+For my project, I will be exploring 311 data for NYC. More specifically, I will be exploring water quality complaints across NYC from 2010 to 2019. This exloration allows us to take a look at the major water quality issues in NYC and which boroughs are more impacted by water quality issues in NYC.
 
 ## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Sketches%20and%20Mockups.png)
 With this data,  there are several types of visualizations that come to mind, but the one that stands out immediately is a bar chart showing the number of complaints for each descriptor type. Another type of visualization that comes to mind is a pie chart showing the number of complaints by borough. A final type of visualization that I would consider is a simple map that shows where the complaint was filed.
