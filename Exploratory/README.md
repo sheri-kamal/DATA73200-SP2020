@@ -6,7 +6,7 @@ For my project, I will be exploring 311 data for NYC, more specifically, I will 
 ## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Sketches%20and%20Mockups.png)
 With this data,  there are several types of visualizations that come to mind, but the one that stands out immediately is a bar chart showing the number of complaints for each descriptor type. Another type of visualization that comes to mind is a pie chart showing the number of complaints by borough. A final type of visualization that I would consider is a simple map that shows where the complaint was filed.
 
-## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Architectural%20Schema.pdf)
+## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Architectural%20Schema.png)
 The layout of the visualization will be a dashboard made up of two charts and a legend so there will be a need for three svg containers. The charts, a bar chart and a pie chart, will update on mouseover as will the legend to show the number of water quality complaints and the percentage of total complaints by borough.
 
 ## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
