@@ -1,30 +1,30 @@
-/*body {
-  font-family: Verdana, sans-serif;
-  padding: 1em 3em;
-}*/
-
+body {
+    font-family: Verdana, sans-serif;
+    background-color: aliceblue
+}
+  
 path {  
     stroke: #fff; 
 }
   
 path:hover {  
-    opacity:0.9; 
+    opacity: 0.75; 
 }
   
 rect:hover {  
-    fill: slateblue; 
+    opacity: 0.75; 
 }
   
 .axis {  
-    font: 10px sans-serif; 
+    font: 10px Verdana; 
 }
   
 .legend tr{    
-    border-bottom:1px solid grey; 
+    border-bottom: 1px solid grey; 
 }
   
 .legend tr:first-child{   
-    border-top:1px solid grey; 
+    border-top: 1px solid grey; 
 }
   
 .axis path, .axis line {
@@ -38,18 +38,18 @@ rect:hover {
 }
   
 .legend{
-    margin-bottom:76px;
-    display:inline-block;
+    margin-bottom: 76px;
+    display: inline-block;
     border-collapse: collapse;
     border-spacing: 0px;
 }
   
 .legend td{
-    padding:4px 5px;
-    vertical-align:bottom;
+    padding: 4px 5px;
+    vertical-align: bottom;
 }
   
 .legendFreq, .legendPerc{
-    align:right;
-    width:50px;
+    align: right;
+    width: 50px;
 }
