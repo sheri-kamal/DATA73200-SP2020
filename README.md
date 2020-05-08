@@ -1,4 +1,4 @@
-# DATA73200, Spring 2020
+# [DATA73200, Spring 2020](https://sheri-kamal.github.io/DATA73200-SP2020/)
 Projects for Interactive Data Visualization (Using D3.js), Spring 2020
 
 This repository contains the dataset and codes necessary for the two projects and final paper that are requirements for completion of the course.
