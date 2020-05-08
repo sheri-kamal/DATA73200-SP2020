@@ -7,6 +7,6 @@ This repository contains the dataset and codes necessary for the two projects an
 
 1. [Project 1 - Exploratory Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/) (20% of final grade)
 
-2. [Project 2 - Narritive Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Narrative/) (20% of final grade)
+2. [Project 2 - Narrative Visualization](https://sheri-kamal.github.io/DATA73200-SP2020/Narrative/) (20% of final grade)
 
 3. Final Project - Final Portfolio (20% of final grade)
