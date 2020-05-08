@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Project 2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Water Quality and Waterborne Illness in NYC from 2010 to 2019</h1>
+    </header>
+    <div>
+      <div class='section' id='one'>
+        <div class='text'>
+          <p> New York City receives it's drinking water from two main sources, the Catskill/Delaware Watersheds and the Croton Watershed, through a series of aquaducts and tunnels. The Catskill/Delaware Watersheds predominantly supplies drinking water to Brooklyn, Queens, and Staten Island, while partially supplying drinking water the Bronx and Manhattan. The Cronton Watershed predominantly supplies drinking water to the Bronx while only partially, and on a supplementary basis, supplying drinking water to Manhattan. </p> 
+          <p> The three boroughs with the largest amount of water quality complaints are Queens, Brooklyn, and Staten Island. All three of these boroughs receive their drinking water from the Catskill/Delaware Watersheds. The borough with the least amount of water quality complaints is the Bronx which predominantly receives it's drinking water from the Cronton Watershed. </p>
+        </div>
+        <div class='image'>
+          <img src="https://www1.nyc.gov/assets/dep/images/content/pages/water/groundwater-service-area.png" alt="New York City Water Tunnels and Distribution Areas">
+        </div>
+      </div>
+      <div class='text'>
+        <p> We would assume when we look at waterborne illness complaints in NYC that Queens, Brooklyn, and Staten Island would have the largest number of cases of waterborne illnesses since they have the largest number of water quality complaints, but as we see below this is not the case. </p>
+      </div>
+      <div class='section' id='two'>
+        <div class='graph'>
+          <div id='d3-container-bar2'> 
+          </div>
+        </div>
+        <div class='graph2'>
+          <div id='d3-container-bar1'> 
+          </div>
+        </div>
+      </div>
+      <div class='text'>
+        <p> The three boroughs with the largest number of waterborne illnesses are Brooklyn, Manhattan, and Queens. While Brooklyn and Queens was expected in the top three, Manhattan was not. The Bronx also has a much higher number of waterborne illnesses than was expected when compared to the low number of water quality complaints. The difference in population between the boroughs as well as differences in living conditions could be factors that affect the prevalence of waterborne illnesses. </p>
+      </div>
+      <div class='text'>
+        <p> Looking at waterborne illness complaints and water quality complaints in NYC, we can see that there is an overall positive correlation between water quality complaints and waterborne illness complaints although it could be considered weak. With the odd exception of Queens, each borough also displays a positive correlation between water quality complaints and waterborne illness complaints. </p>
+      </div>
+      <div id='d3-container-scatter'> 
+        <label for="dropdown">Borough:</label>
+        <select id="dropdown" name="dropdown"></select>
+      </div>
+      <div class='text'>
+        <p> Despite the overall positive correlation, which is 0.464, we cannot definitively say that water quality issues cause waterborne illnesses. What we can say is water quality issues seem to factor into waterborne illness rates, but there are also different factors that affect waterborne illnesses in NYC and in each individual borough among which could be where their drinking water was sourced from. </p>
+      </div>
+      </div>
+    </div>
+    <footer>
+      <p>Source: <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data">311 Water Quality Service Requests from 2010 to 2019</a>.</p>
+    </footer>
+    <script src="../lib/d3.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
