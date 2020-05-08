@@ -7,3 +7,15 @@ This in depth exploration could prove useful to help city and government agencie
 
 ## [Sketches and Mockups](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Narrative/Sketches%20and%20Mockups.png)
 For my visualization, I believed that a scatter plot with a regression line would be most useful to show a relationship between water quality complaints and waterborne illness complaints. I also believe that a multi-line time series chart displaying the amount of water quality complaints and waterborne illnesses could prove usefulby providing perspective on waterborne illness complaints in relation to water quality complaints. The last type of visualization I believed would be useful in my narrative is a pair of pie charts with one depicting the amount of water quality complaints by borough and the other depicting the amount of waterborne illness complaints by borough.
+
+## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Narrative/Architectural%20Schema.png)
+The layout of the visualization will be a webpage with two bar charts and a scatter plot as well as text throughout the page. Each visualization is created using seperate JS files with export functions and are imported into the main JS file which is used in the HTML file.
+
+## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Narrative/Final%20Dataset.csv)
+This dataset contains the following  variables:
+  * Year (missing from simplified file)
+  * Borough
+  * Waterborne Illness (summed for each borough in simplified file)
+  * Water Quality (summed for each borough in simplified file)
+
+## [Final Project](https://sheri-kamal.github.io/DATA73200-SP2020/Narrative/)
