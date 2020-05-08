@@ -11,7 +11,7 @@ For my visualization, I believed that a scatter plot with a regression line woul
 ## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Narrative/Architectural%20Schema.png)
 The layout of the visualization will be a webpage with two bar charts and a scatter plot as well as text throughout the page. Each visualization is created using seperate JS files with export functions and are imported into the main JS file which is used in the HTML file.
 
-## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Narrative/Final%20Dataset.csv)
+## [Final Data](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Narrative/Final%20Dataset.csv)
 This dataset contains the following  variables:
   * Year (missing from simplified file)
   * Borough
