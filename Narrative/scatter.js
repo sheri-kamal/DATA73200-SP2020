@@ -6,9 +6,7 @@ export function scatter() {
   
     let svg;
     let xScale;
-    let xAxis;
     let yScale;
-    let yAxis;
   
     let state = {
       data: null,
@@ -31,8 +29,8 @@ export function scatter() {
       .domain([0, d3.max(state.data, d => d["Waterborne Illness"])])
       .range([height - margin.bottom, margin.top]);
   
-      xAxis = d3.axisBottom(xScale);
-      yAxis = d3.axisLeft(yScale);
+      const xAxis = d3.axisBottom(xScale);
+      const yAxis = d3.axisLeft(yScale);
   
       const selectElement = d3.select("#dropdown").on("change", function() {
         console.log("new selected borough is", this.value);
@@ -85,20 +83,6 @@ export function scatter() {
       if (state.selectedborough !== "All") {
         filteredData = state.data.filter(d => d.Borough === state.selectedborough);
       }
-      
-      xScale.domain([d3.min(filteredData, d => d["Water Quality"]), d3.max(filteredData, d => d["Water Quality"])]);
-
-      d3.select("g.x-axis")
-      .transition()
-      .duration(1000)
-      .call(xAxis.scale(xScale));
-
-      yScale.domain([d3.min(filteredData, d => d["Waterborne Illness"]), d3.max(filteredData, d => d["Waterborne Illness"])]);
-
-      d3.select("g.y-axis")
-      .transition()
-      .duration(1000)
-      .call(yAxis.scale(yScale));
   
       const dot = svg
       .selectAll(".dot")
