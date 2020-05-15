@@ -86,14 +86,14 @@ export function scatter() {
         filteredData = state.data.filter(d => d.Borough === state.selectedborough);
       }
       
-      xScale.domain([0, d3.max(filteredData, d => d["Water Quality"])]);
+      xScale.domain([d3.min(filteredData, d => d["Water Quality"]), d3.max(filteredData, d => d["Water Quality"])]);
 
       d3.select("g.x-axis")
       .transition()
       .duration(1000)
       .call(xAxis.scale(xScale));
 
-      yScale.domain([0, d3.max(filteredData, d => d["Waterborne Illness"])]);
+      yScale.domain([d3.min(filteredData, d => d["Waterborne Illness"]), d3.max(filteredData, d => d["Waterborne Illness"])]);
 
       d3.select("g.y-axis")
       .transition()
