@@ -63,7 +63,7 @@ export function bar1() {
       .attr("y", "50%")
       .attr("dx", "-3em")
       .attr("writing-mode", "vertical-lr")
-      .text("Waterborne Illness");
+      .text("Total Waterborne Illness Cases");
   
     const rect = svg
       .selectAll("rect")
@@ -73,7 +73,13 @@ export function bar1() {
       .attr("x", d => xScale(d.Borough))
       .attr("width", xScale.bandwidth())
       .attr("height", d => height - margin.bottom - yScale(d['Waterborne Illness']))
-      .attr("fill", "mediumpurple")
+      .attr("fill", d => {
+        if (d.Borough === "Bronx") return "mediumorchid";
+        else if (d.Borough === "Brooklyn") return "palevioletred";
+        else if (d.Borough === "Queens") return "plum";
+        else if (d.Borough === "Manhattan") return "mediumturquoise"; 
+        else return "cornflowerBlue";
+        })
   
     svg
       .append("g")
