@@ -1,7 +1,7 @@
 function dashboard(id, Data){
   var barColor = 'steelblue';
 
-  function pieSeg(c){ return {Bronx: "mediumorchid", Brooklyn: "palevioletred", Manhattan: "slategray", Queens: "mediumturquoise", "Staten Island": "darkmagenta"}[c]; }
+  function pieSeg(c){ return {Bronx: "mediumorchid", Brooklyn: "palevioletred", Queens: "plum", Manhattan: "mediumturquoise", "Staten Island": "cornflowerBlue"}[c]; }
 
   Data.forEach(function(d){d.total = d.Borough.Bronx+ d.Borough.Brooklyn + d.Borough.Manhattan + d.Borough.Queens + d.Borough["Staten Island"];});
 
