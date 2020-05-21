@@ -70,3 +70,11 @@ header {
     fill: grey;
     text-anchor: middle;
 }
+
+#dropdown {
+  color: grey;
+}
+
+#d3-container-scatter {
+  color: grey;
+}
