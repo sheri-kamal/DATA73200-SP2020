@@ -60,7 +60,7 @@ export function scatter() {
       .attr("class", "axis-label")
       .attr("x", "50%")
       .attr("dy", "3em")
-      .text("Water Quality Complaints per Year");
+      .text("Number of Water Quality Complaints per Year");
   
       svg
       .append("g")
@@ -72,7 +72,7 @@ export function scatter() {
       .attr("y", "50%")
       .attr("dx", "-3em")
       .attr("writing-mode", "vertical-rl")
-      .text("Waterborne Illness Cases per Year");
+      .text("Number of Waterborne Illness Cases per Year");
   
       draw();
     }
