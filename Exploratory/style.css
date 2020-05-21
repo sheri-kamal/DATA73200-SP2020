@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, sans-serif;
-    background-color: aliceblue
+    background-color: aliceblue;
+    color: grey;
 }
   
 path {  
@@ -35,6 +36,10 @@ rect:hover {
   
 .axis path {  
     display: none; 
+}
+
+.tick line{
+    visibility: hidden;
 }
   
 .legend{
