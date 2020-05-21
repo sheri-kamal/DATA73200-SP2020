@@ -7,7 +7,7 @@ function dashboard(id, Data){
 
   function barChart(fD){
     var bC = {},
-    width = window.innerWidth * 0.57, 
+    width = window.innerWidth * 0.565, 
     height = window.innerHeight / 2,
     margin = {top: 20, bottom: 20, left: 20, right: 40};
 
@@ -99,7 +99,7 @@ function dashboard(id, Data){
 
   function pieChart(pD){
     var pC = {},    
-    pieDim = {w: 280, h: 280};
+    pieDim = {w: 275, h: 275};
     pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
                 
     var piesvg = d3
