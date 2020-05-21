@@ -28,10 +28,6 @@ rect:hover {
     border-top: 1px solid grey; 
 }
 
-.legend {
-    height: window.innerWidth * 0.15;
-}
-  
 .axis path, .axis line {
     fill: none;
     stroke: #000;
