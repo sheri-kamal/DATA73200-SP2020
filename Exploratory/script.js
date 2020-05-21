@@ -57,7 +57,7 @@ function dashboard(id, Data){
       .append("text")
       .text(function(d){ return d3.format(",")(d[1]) })
       .attr("x", function(d) { return xScale(d[0]) + xScale.bandwidth() / 2; })
-      .attr("y", function(d) { return yScale(d[1]); })
+      .attr("y", function(d) { return yScale(d[1])-3; })
       .attr("text-anchor", "middle")
       .attr("fill", "grey");
 
@@ -92,7 +92,7 @@ function dashboard(id, Data){
         .transition()
         .duration(500)
         .text(function(d){ return d3.format(",")(d[1]) })
-        .attr("y", function(d) { return yScale(d[1]); });            
+        .attr("y", function(d) { return yScale(d[1])-3; });            
     }        
     return bC;
   }
