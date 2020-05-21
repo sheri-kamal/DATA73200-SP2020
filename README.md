@@ -17,4 +17,4 @@ My narrative visualization is an expansion on my exploratory visualization proje
 
 My project and design process can be found [here](https://github.com/sheri-kamal/DATA73200-SP2020/tree/master/Narrative).
 
-## [Reflections](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Final%20Portfolio%20Reflections.pdf)
+## [Project Reflections](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Final%20Portfolio%20Reflections.pdf)
