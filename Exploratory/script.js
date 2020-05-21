@@ -99,7 +99,7 @@ function dashboard(id, Data){
 
   function pieChart(pD){
     var pC = {},    
-    pieDim = {w: window.innerWidth * 0.2, h: window.innerWidth * 0.2};
+    pieDim = {w: 280, h: 280};
     pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
                 
     var piesvg = d3
