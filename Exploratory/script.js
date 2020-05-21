@@ -7,7 +7,7 @@ function dashboard(id, Data){
 
   function barChart(fD){
     var bC = {},
-    width = window.innerWidth * 0.58, 
+    width = window.innerWidth * 0.57, 
     height = window.innerHeight / 2,
     margin = {top: 20, bottom: 20, left: 20, right: 40};
 
