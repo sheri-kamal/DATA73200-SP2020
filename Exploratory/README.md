@@ -9,12 +9,10 @@ With this data,  there are several types of visualizations that come to mind, bu
 ## [Architectural Schema](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Architectural%20Schema.png)
 The layout of the visualization will be a dashboard made up of two charts and a legend so there will be a need for three svg containers. The charts, a bar chart and a pie chart, will update on mouseover as will the legend to show the number of water quality complaints and the percentage of total complaints by borough.
 
-## [Final Data](https://raw.githubusercontent.com/sheri-kamal/DATA73200-SP2020/master/Exploratory/Final%20Dataset.csv)
+## [Final Data](https://github.com/sheri-kamal/DATA73200-SP2020/blob/master/Exploratory/Final%20Dataset.csv)
 This dataset contains the following variables:
-  * Year
-  * Descriptor
+  * Complaint 
   * Borough 
-  * Lattitude
-  * Longitude
+  * Count
 
 ## [Final Project](https://sheri-kamal.github.io/DATA73200-SP2020/Exploratory/)
